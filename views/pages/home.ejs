@@ -1,0 +1,331 @@
+<%- contentFor('body') %>
+
+<body>
+    <div class="container">
+        <header class="main-header">
+        <div class="content">
+                <div class="logo">
+                        <a href="/">
+                            <div class="section-title fontzero">
+                                <h2>getLayer</h2>
+                                <p class="tagline"><%= __('GetLayer Brings the Best Solutions to Meet the Needs of Your Customers and Your Business') %>.</p>
+                            </div>
+                            <img src="/images/logo.png" alt="getLayer" title="getLayer" />
+                        </a>
+                </div>
+
+                <div class="mobile-action">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="close-area"></div>
+
+                <nav class="main-nav" id="slider">
+
+                    <ul class="top">
+                        <li><a data-scroll href="#about" title="<%= __('About') %>"><%= __('About') %></a></li>
+                        <li><a data-scroll href="#services" title="<%= __('Services') %>"><%= __('Services') %></a></li>
+                        <li><a data-scroll href="#testimonials" title="<%= __('Testimonials') %>"><%= __('Testimonials') %></a></li>
+                        <li><a data-scroll href="#contact" title="<%= __('Contact Us') %>"><%= __('Contact Us') %></a></li>
+                    </ul>
+                </nav> <!-- ./main nav -->
+            </div><!-- ./content -->
+        </header>
+
+        <section>
+            <div class="section-title">
+                <h1><%= __('GetLayer Brings the Best Solutions to Meet the Needs of Your Customers and Your Business') %>.</h1>
+            </div>
+
+            <article id="about">
+                <h2 class="article-title"><%= __('About') %></h2>
+
+                <div class="content">
+                    <p><%= __('Located in Curitiba, PR - Brazil, getLayer is a Web Development startup') %>. <%= __('We have our own projects and We work in third-party projects too') %>.</p>
+                    <p><%= __('We started our operations in April 2016') %>. <%= __('Since then, We have done many jobs for several clients and They are very satisfied with the results') %>.</p>
+                </div><!-- ./content -->
+
+            </article>
+
+             <article id="services">
+                <h2 class="article-title"><%= __('Our Services') %></h2>
+
+                <div class="content">
+
+                    <div id="block-services-left" class="block-services">
+                        <img src="/images/code-944499_640.jpg" title="<%= __('Web Development') %>" alt="<%= __('Picture of codes in PHP') %>" />
+                        <div class="text">
+                            <h3><%= __('Web Development') %></h3>
+                            <p><%= __('Web Development and mainly maintenance in client websites') %>.</p>
+                        </div>
+                    </div><!-- ./block-services -->
+
+                    <div id="block-services-center" class="block-services">
+                        <img src="/images/pomotask-logo.jpg" title="<%= __('Pomotask Project') %>" alt="Pomotask Logo" />
+                        <div class="text">
+                            <h3><%= __('Pomotask Project') %></h3>
+                            <p><%= __('Pomotask is a open source web app in development') %>. <%= __('The project objective is build a complete pomodoro timer') %>.</p>
+                        </div>
+                    </div><!-- ./block-services -->
+
+                    <div id="block-services-right" class="block-services">
+                        <img src="/images/services.jpg" title="<%= __('getLayer E-Commerce') %>" alt="<%= __('cloud computing Image to illustrate the getLayer E-commerce concept') %>" />
+                        <div class="text">
+                            <h3><%= __('getLayer E-Commerce') %></h3>
+                            <p><%= __('getLayer E-Commerce is a E-commerce platform in development') %>. <%= __('The project objective is offers complete E-commerce services for small companies') %>.</p>
+                        </div>
+                    </div><!-- ./block-services -->
+
+                </div><!-- ./content -->
+
+            </article>
+
+            <article id="testimonials">
+                <h2 class="article-title"><%= __('What Our Customers Are Saying') %></h2>
+
+                    <div class="content">
+
+                        <div id="block-testimonials-a1" class="block-testimonials">
+                            <p class="feedback">"<%= __('Excellent work. Deadline, code of easy maintenance, and excellent communication') %>."</p>
+                            <p class="project"><%= __('Convert .cdr to HTML/CSS') %></p>
+                            <p class="name">Samyr A.</p>
+                            <p class="website"><a href="http://aluguemee.com.br" title="aluguemee.com.br" target="_blank" rel="nofollow">aluguemee.com.br</a></p>
+                        </div><!-- ./block-testimonials -->
+
+                        <div id="block-testimonials-a2" class="block-testimonials">
+                            <p class="feedback">"<%= __('Professional Fast and efficient') %>."</p>
+                            <p class="project"><%= __('Slide Animation and Button for Table (Urgent)') %></p>
+                            <p class="name">Rafael De Araujo Ortiz</p>
+                            <p class="website"><%= __('Outsourced') %>*</p>
+                        </div><!-- ./block-testimonials -->
+
+                        <div id="block-testimonials-a3" class="block-testimonials">
+                            <p class="feedback">"<%= __("The best freelancer I've ever worked") %>."</p>
+                            <p class="project"><%= __('Add Language Flags at WordPress Header') %></p>
+                            <p class="name">Carlos Torelli</p>
+                            <p class="website"><a href="http://sevenrealty.com" title="sevenrealty.com" target="_blank" rel="nofollow">sevenrealty.com</a></p>
+                        </div><!-- ./block-testimonials -->
+
+                        <div id="block-testimonials-b1" class="block-testimonials">
+                            <p class="feedback">"<%= __('The second time I work with this professional, as the first time did an excellent job, I do not have to complain about his professionalism. Very attentive') %>."</p>
+                            <p class="project"><%= __('Implementation of Candidate Search System') %></p>
+                            <p class="name">Rodrigo Fontes Santos</p>
+                            <p class="website"><a href="http://clockti.com.br" title="clockti.com.br" target="_blank" rel="nofollow">clockti.com.br</a></p>
+                        </div><!-- ./block-testimonials -->
+
+                        <div id="block-testimonials-b2" class="block-testimonials">
+                            <p class="feedback">"<%= __('Great professional! Competent, caring and dedicated') %>."</p>
+                            <p class="project"><%= __('WordPress Adjustments') %></p>
+                            <p class="name">Sidney Arakaki</p>
+                            <p class="website"><a href="http://www.skataholic.com.br" title="www.skataholic.com.br" target="_blank" rel="nofollow">www.skataholic.com.br</a></p>
+                        </div><!-- ./block-testimonials -->
+
+                        <div id="block-testimonials-b3" class="block-testimonials">
+                            <p class="feedback">"<%= __('Again this freelancer surprised me with his expertise in optimizepress and wordpress. If you have problems with wordpress, this professional will help you') %>!"</p>
+                            <p class="project"><%= __('Installation Wordpress Theme') %></p>
+                            <p class="name">Douglas Ferreira Pereira</p>
+                            <p class="website"><a href="http://instacopy.com.br" title="instacopy.com.br" target="_blank" rel="nofollow">instacopy.com.br</a></p>
+                        </div><!-- ./block-testimonials -->
+
+                        <div id="block-testimonials-c1" class="block-testimonials">
+                            <p class="feedback">"<%= __('Professional competent, attentive, agile and with quality') %>."</p>
+                            <p class="project"><%= __('Finalize Project') %></p>
+                            <p class="name">Luciano Xavier De Oliveira</p>
+                            <p class="website"><%= __('Outsourced') %>*</p>
+                        </div><!-- ./block-testimonials -->
+
+                        <div id="block-testimonials-c2" class="block-testimonials">
+                            <p class="feedback">"<%= __('Weverton made all the additions of HTML and JavaScript codes, quickly and correctly. Programmer agile, professional and competent there is no better. I recommend without any doubts') %>."</p>
+                            <p class="project"><%= __('Implement Codes in layout') %></p>
+                            <p class="name">Guillerme Soares Da Silva</p>
+                            <p class="website"><a href="http://understech.com.br" title="understech.com.br" target="_blank" rel="nofollow">understech.com.br</a></p>
+                        </div><!-- ./block-testimonials -->
+
+                        <div id="block-testimonials-c3" class="block-testimonials">
+                            <p class="feedback">"<%= __('I recommend it to everyone. Proactive. Delivered more than the combined, and before the deadline. Compromised. Excellent technical knowledge. Weverton surprised me and we will certainly work together again. You can hire without fear') %>!"</p>
+                            <p class="project"><%= __('Insert Adsense Into 350 Web Pages') %></p>
+                            <p class="name">Herbert Bento</p>
+                            <p class="website"><a href="http://ddsonline.com.br" title="ddsonline.com.br" target="_blank" rel="nofollow">ddsonline.com.br</a></p>
+                        </div><!-- ./block-testimonials -->
+
+                        <p class="footer-note align-left"><%= __('Source') %>: <a href="https://www.99freelas.com.br/user/wevertonj" title="www.99freelas.com.br" target="_blank" rel="nofollow">www.99freelas.com.br/user/wevertonj</a> (<%= __('99freelas is a Brazilian freelance platform') %>).</p>
+                        <p class="footer-note align-left"><b>*</b> <%= __('Sites marked "Outsourced" are jobs contracted by other professionals / agencies for their clients') %>.</p>
+
+                  </div><!-- ./content -->
+            </article>
+
+            <article id="contact">
+                <h2 class="article-title"><%= __('Contact Us') %></h2>
+                <div class="content">
+
+                <div class="contact-form">
+                        <form action="/contact" method="post">
+                            <input type="hidden" name="user_lang" value="<%= __('en') %>" />
+
+                            <label for="name"><%= __('Your Name') %></label>
+                            <input type="text" id="name" name="name" placeholder="<%= __('Enter Your Name') %>" required />
+
+                            <label for="email"><%= __('Your E-mail') %></label>
+                            <input type="email" id="email" name="email" placeholder="<%= __('Enter Your E-mail') %>" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="<%= __('Enter a Valid E-mail Addres') %>" required />
+
+                            <label for="subject"><%= __('Subject') %></label>
+                            <input type="text" id="subject" name="Subject" placeholder="<%= __('Enter The Subject') %>" required />
+
+                            <label for="message"><%= __('Message') %></label>
+                            <textarea id="message" name="message" placeholder="<%= __('Enter Your Message') %>" onkeydown="autoResize()" rows="1" required></textarea>
+
+                            <div class="contact-buttons">
+                                <button class="btn btn-green" type="submit"><%= __('Submit') %></button>
+                                <button class="btn btn-gray" type="reset"><%= __('Cancel') %></button>
+                            </div><!-- ./contact-buttons -->
+                        </form>
+                    </div><!-- ./contact-form -->
+
+                </div><!-- ./content -->
+            </article>
+        </section>
+    </div><!-- ./container -->
+
+    <footer class="main-footer">
+        <div class="content">
+            <div class="copy">&#9400; <%= new Date().getFullYear() %> getLayer Internet & Software. All rights reserved. </div>
+            <div class="author">
+                <div class="social"><a href="https://github.com/getlayer" title="<%= __('getLayer on GitHub') %>" target="_blank"><img src="/images/github-logo.png" title="<%= __('getLayer on GitHub') %>" alt="GitHub Logo"/></a></div>
+                <div class="developer"><a href="http://www.getlayer.com" title="<%= __('Developed by') %>" target="_blank"><span><%= __('Developed by') %></span><img src="/images/getlayer-logo.png" title="<%= __('Developed by') %>" alt="getLayer Logo"/></a></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/smooth-scroll.min.js"></script> 
+
+    <script>
+          smoothScroll.init();
+
+            // MENU
+            let MobileMenu = document.querySelector('.mobile-action');
+            let close = document.querySelector('.close-area');
+            MobileMenu.addEventListener('click', function () {
+                MobileMenu.classList.toggle('active');
+                close.classList.toggle('active');
+                let e = document.getElementById("slider");
+                "70px" == e.style.bottom ? e.style.bottom = "-300px" : e.style.bottom = "70px";
+            });
+            close.addEventListener('click', function () {
+                MobileMenu.classList.remove('active');
+                close.classList.remove('active');
+                let e = document.getElementById("slider");
+                e.style.bottom = "-300px";
+            });
+
+
+
+            function autoResize() {
+            objTextArea = document.getElementById('message');
+            if(objTextArea.scrollHeight > objTextArea.offsetHeight) {
+                objTextArea.rows++;
+            } 
+        }
+
+
+
+        function animateIt(element, animation) {
+            element.style.opacity = "1";
+            element.classList.add("animated");
+            element.classList.add(animation);
+        }
+
+        if(window.innerWidth > 1250) {
+                window.addEventListener('scroll', function(){ 
+                //Here you forgot to update the value
+                scrollpos = window.scrollY;
+
+                if(scrollpos > 390 ){
+                    var element1 = document.getElementById("block-services-left");
+                    var element2 = document.getElementById("block-services-center");
+                    var element3 = document.getElementById("block-services-right");
+
+                    animateIt(element1, 'fadeInLeft');
+                    animateIt(element2, 'zoomIn');
+                    animateIt(element3, 'fadeInRight');
+                } 
+                
+                if(scrollpos > 800) {
+                    var element1 = document.getElementById("block-testimonials-a1");
+                    var element2 = document.getElementById("block-testimonials-a2");
+                    var element3 = document.getElementById("block-testimonials-a3");
+
+                    animateIt(element1, 'bounceInUp');
+                    animateIt(element2, 'bounceInUp');
+                    animateIt(element3, 'bounceInUp');
+                }
+
+                if(scrollpos > 960) {
+                    var element4 = document.getElementById("block-testimonials-b1");
+                    var element5 = document.getElementById("block-testimonials-b2");
+                    var element6 = document.getElementById("block-testimonials-b3");
+
+                    animateIt(element4, 'bounceInUp');
+                    animateIt(element5, 'bounceInUp');
+                    animateIt(element6, 'bounceInUp');
+                }
+
+                if(scrollpos > 1270) {
+                    var element7 = document.getElementById("block-testimonials-c1");
+                    var element8 = document.getElementById("block-testimonials-c2");
+                    var element9 = document.getElementById("block-testimonials-c3");
+
+                    animateIt(element7, 'bounceInUp');
+                    animateIt(element8, 'bounceInUp');
+                    animateIt(element9, 'bounceInUp');
+                }  
+            });
+        } else if (window.innerWidth > 800 && window.innerWidth <= 1250) {
+            window.addEventListener('scroll', function(){ 
+                //Here you forgot to update the value
+                scrollpos = window.scrollY;
+
+                if(scrollpos > 390 ){
+                    var element1 = document.getElementById("block-services-left");
+                    var element2 = document.getElementById("block-services-center");
+                    var element3 = document.getElementById("block-services-right");
+
+                    animateIt(element1, 'fadeInLeft');
+                    animateIt(element2, 'zoomIn');
+                    animateIt(element3, 'fadeInRight');
+                } 
+                
+                if(scrollpos > 800) {
+                    var element1 = document.getElementById("block-testimonials-a1");
+                    var element2 = document.getElementById("block-testimonials-a2");
+                    var element3 = document.getElementById("block-testimonials-a3");
+
+                    animateIt(element1, 'bounceInUp');
+                    animateIt(element2, 'bounceInUp');
+                    animateIt(element3, 'bounceInUp');
+                }
+
+                if(scrollpos > 1160) {
+                    var element4 = document.getElementById("block-testimonials-b1");
+                    var element5 = document.getElementById("block-testimonials-b2");
+                    var element6 = document.getElementById("block-testimonials-b3");
+
+                    animateIt(element4, 'bounceInUp');
+                    animateIt(element5, 'bounceInUp');
+                    animateIt(element6, 'bounceInUp');
+                }
+
+                if(scrollpos > 1800) {
+                    var element7 = document.getElementById("block-testimonials-c1");
+                    var element8 = document.getElementById("block-testimonials-c2");
+                    var element9 = document.getElementById("block-testimonials-c3");
+
+                    animateIt(element7, 'bounceInUp');
+                    animateIt(element8, 'bounceInUp');
+                    animateIt(element9, 'bounceInUp');
+                }   
+            });
+        } 
+    </script>
+</body>
